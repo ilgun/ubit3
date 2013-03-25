@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: void.plus:soundcloud:1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/SoundCloud.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/void/plus/soundcloud/1.0/soundcloud-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/void/plus/soundcloud/1.0/soundcloud-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

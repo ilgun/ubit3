@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ubit3:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="ubit3-1.0.war">
+      <element id="artifact" artifact-name="ubit3:war exploded" />
+    </root>
+  </artifact>
+</component>

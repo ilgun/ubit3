@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package namespace="/sound" name="sound" extends="struts-default">
+
+        <action name="LoginPage">
+            <result name="input">/sound/Login.jsp</result>
+            <result name="success">/sound/Login.jsp</result>
+        </action>
+
+        <action name="Login" method="login"  class="com.ilgun.ubit3.sound.Login">
+            <result name="input">/sound/Login.jsp</result>
+            <result type="redirectAction">SongMenuPage</result>
+        </action>
+
+        <action name="LoginS3" method="logins3"  class="com.ilgun.ubit3.sound.Login">
+            <result name="input">/sound/sthreeLogin.jsp</result>
+            <result type="redirectAction">SongMenuPage</result>
+        </action>
+
+        <action name="SongMenuPage" method="songMenu" class="com.ilgun.ubit3.sound.Login">
+            <result>/sound/Songlist.jsp</result>
+        </action>
+
+        <action name="SthreeLoginPage" method="sthreeLoginPage" class="com.ilgun.ubit3.sound.Login">
+            <result>/sound/sthreeLogin.jsp</result>
+        </action>
+
+
+
+    </package>
+</struts>
